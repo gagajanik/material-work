@@ -1,21 +1,242 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<button mat-raised-button>Hello World</button>
+<div class="mat-display-4">this is display 4</div>
+<div class="mat-display-3">this is display 3</div>
+<div class="mat-display-2">this is display 2</div>
+<div class="mat-display-1">this is display 1</div>
 
-<router-outlet></router-outlet>
+<div class="mat-headline">this is display 4</div>
+<div class="mat-title">this is display 3</div>
+<div class="mat-subheading-2">this is display 2</div>
+<div class="mat-subheading-1">this is display 1</div>
+
+<div class="mat-body-1">this is display 4</div>
+<div class="mat-body-2">this is display 3</div>
+<div class="mat-caption-2">this is display 2</div>
+
+<div class="mat-typography">
+  <h4>h4</h4>
+  <h3>h3</h3>
+  <h2>h2</h2>
+  <h1>h1</h1>
+</div> -->
+<!-- <div>
+<button color="primary" mat-button>click</button>
+<button color="accent" mat-raised-button>click</button>
+<button color="warn" disableRipple mat-flat-button>click</button>
+<button mat-stroked-button>click</button>
+</div>
+<div>
+  <button mat-icon-button>click</button>
+  <button mat-fab>click</button>
+  <button mat-mini-fab>click</button>
+  </div>
+
+  <div>
+    <button color="primary" mat-icon-button>click</button>
+    <button color="accent" mat-fab>click</button>
+    <button color="warn" mat-mini-fab>click</button>
+    </div> -->
+    <!-- <div>
+      <mat-button-toggle checked #toggleBtn>toggle</mat-button-toggle>
+       {{toggleBtn.checked}}
+    </div>
+    <div>
+      <mat-button-toggle-group multiple #toggleGroup="matButtonToggleGroup">
+        <mat-button-toggle value="angular">Angular</mat-button-toggle>
+        <mat-button-toggle  value="react">React</mat-button-toggle>
+        <mat-button-toggle  value="vue">Vue</mat-button-toggle>
+      </mat-button-toggle-group>
+      {{toggleGroup.value}}
+    </div> -->
+    <!-- <div>
+    <mat-icon color="primary">alarm_on</mat-icon>
+  </div> -->
+  <!-- <div>
+    <span [matBadge]="notification" matBadgePosition="below before">Notification</span>
+  </div>
+  <div>
+    <span [matBadge]="notification" matBadgePosition="below after">Notification</span>
+  </div>
+  <div>
+    <span matBadge="3" matBadgeSize="large" matBadgePosition="above before">Notification</span>
+  </div> -->
+  <!-- <mat-progress-spinner value="40"></mat-progress-spinner> -->
+  <!-- <mat-spinner *ngIf="showSpinner" color="warn"></mat-spinner>
+  <button mat-raised-button color="warn" (click)="loadData()">loadData</button> -->
+  <!-- <mat-toolbar color="primary" class="navbar">
+    <div>codeevolution</div>
+    <div>
+      <span>Home</span>
+      <span>About</span>
+      <span>services</span>
+    </div>
+  </mat-toolbar> -->
+  <!-- <mat-sidenav-container>
+    <mat-sidenav (opened)="log('opened')" (closed)="log('close')" #sidenav mode="side" [(opened)]="opened">Side content</mat-sidenav>
+    <mat-sidenav-content>main
+      <button (click)="opened=!opened">toggle open</button>
+      <button (click)="sidenav.open()">open</button>
+      <button (click)="sidenav.close()">close</button>
+      <button (click)="sidenav.toggle()">Toggle</button>
+    </mat-sidenav-content>
+  </mat-sidenav-container> -->
+  <!-- <mat-menu #appMenu="matMenu" xPosition="after" yPosition="above"> 
+    <button mat-menu-item [matMenuTriggerFor]="subMenu">frontEnd</button>
+    <button mat-menu-item>backEnd</button>
+  </mat-menu>
+
+  <button mat-flat-button class="center" [matMenuTriggerFor]="appMenu">Menu</button>
+
+  <mat-menu #subMenu="matMenu">
+    <button mat-menu-item>Angular</button>
+    <button mat-menu-item>React</button>
+    <button mat-menu-item>Vue</button>
+  </mat-menu>
+
+  <mat-menu #lazyMenu="matMenu">
+    <ng-template matMenuContent let-name="name" let-hobby="hobby">
+      <button mat-menu-item>Setting</button>
+      <button mat-menu-item>{{hobby}}</button>
+      <button mat-menu-item>Log Out {{name}}</button>
+    </ng-template>
+  </mat-menu>
+  <button mat-raised-button [matMenuTriggerData]="{name:'gaga', hobby:'prog'}" [matMenuTriggerFor]="lazyMenu">gaga</button>
+    <button mat-raised-button [matMenuTriggerData]="{name:'leasy', hobby:'teach'}" [matMenuTriggerFor]="lazyMenu">leasy</button> -->
+    <!-- <mat-list dense>
+      <mat-list-item>Item 1</mat-list-item>
+      <mat-list-item>Item 2</mat-list-item>
+      <mat-list-item>Item 3</mat-list-item>
+    </mat-list>
+    <mat-nav-list>
+      <a mat-list-item href="#">home</a>
+      <a mat-list-item href="#">abount</a>
+      <a mat-list-item href="#">service</a>
+    </mat-nav-list> -->
+    <!-- <mat-list>
+      <mat-list-item>
+        <mat-icon matListIcon>home</mat-icon>
+        <h3 matLine>Heading</h3>
+        <p matLine>Line</p>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item>
+        <mat-icon matListIcon>folder</mat-icon>
+        <h3 matLine>Heading2</h3>
+        <p matLine>Line2</p>
+      </mat-list-item>
+    </mat-list> -->
+    <!-- <mat-grid-list cols=2 rowHeight="100px">
+      <mat-grid-tile colspan="2">tile1</mat-grid-tile>
+      <mat-grid-tile>tile2</mat-grid-tile>
+      <mat-grid-tile>tile3</mat-grid-tile>
+      <mat-grid-tile>tile4</mat-grid-tile>
+    </mat-grid-list> -->
+    <!-- <mat-accordion multi="true">
+      <mat-expansion-panel   hideToggle>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Angular Fundamentals
+          </mat-panel-title>
+          <mat-panel-description>
+            Type your name and age
+            <mat-icon>account_circle</mat-icon>
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <p>this is the panelcontent</p>
+        <mat-action-row>
+          <button mat-button>Enrole</button>
+        </mat-action-row>
+      </mat-expansion-panel>
+
+      <mat-expansion-panel   hideToggle>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Angular Material
+          </mat-panel-title>
+          <mat-panel-description>
+            Type your name and age bla bla
+            <mat-icon>account_circle</mat-icon>
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <p>this is the panelcontent</p>
+        <mat-action-row>
+          <button mat-button>Enrole</button>
+        </mat-action-row>
+      </mat-expansion-panel>
+    </mat-accordion> -->
+    <!-- <mat-card>
+      <mat-card-title>
+        card title
+      </mat-card-title>
+      <mat-card-content>
+        this is card content
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-raised-button>Login</button>
+      </mat-card-actions>
+    </mat-card> -->
+    <!-- <mat-tab-group #tabRef (selectedTabChange)="logChange(tabRef.selectedIndex)">
+      <mat-tab label="Angular">Angular</mat-tab>
+      <mat-tab label="React">React</mat-tab>
+      <mat-tab label="Vue">Vue</mat-tab>
+    </mat-tab-group>
+    {{tabRef.selectedIndex}} -->
+    <!-- <mat-vertical-stepper linear>
+      <mat-step label="Shipping Address" completed=true>
+        <p>Shipping address Details</p>
+      </mat-step>
+      <mat-step label="Billing Address" completed=false optional>
+       <p>Billing Address DEtails</p>
+       <div>
+         <button mat-button matStepperPrevious>previous</button>
+         <button mat-button matStepperNext>Next</button>
+       </div>
+      </mat-step>
+      <mat-step label="Place Order" completed=false>
+        <p>Order Details</p>
+      </mat-step>
+    </mat-vertical-stepper> -->
+    <!-- <div>
+    <mat-form-field floatLabel="auto" appearance="fill">
+      <mat-label>Name</mat-label>
+      <input matInput required>
+      <mat-hint>min 5 chars</mat-hint>
+    </mat-form-field>
+    <mat-form-field floatLabel="auto" appearance="outline">
+        <mat-label>Name</mat-label>
+        <input matInput required>
+        <mat-hint>min 5 chars</mat-hint>
+      </mat-form-field>
+    </div>  
+    <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+        <!--- Note that these columns can be defined in any order.
+              The actual rendered columns are set as a property on the row definition" -->
+      
+        <!-- Position Column -->
+        <ng-container matColumnDef="position">
+          <th mat-header-cell *matHeaderCellDef> No. </th>
+          <td mat-cell *matCellDef="let element"> {{element.position}} </td>
+        </ng-container>
+      
+        <!-- Name Column -->
+        <ng-container matColumnDef="name">
+          <th mat-header-cell *matHeaderCellDef> Name </th>
+          <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+        </ng-container>
+      
+        <!-- Weight Column -->
+        <ng-container matColumnDef="weight">
+          <th mat-header-cell *matHeaderCellDef> Weight </th>
+          <td mat-cell *matCellDef="let element"> {{element.weight}} </td>
+        </ng-container>
+      
+        <!-- Symbol Column -->
+        <ng-container matColumnDef="symbol">
+          <th mat-header-cell *matHeaderCellDef> Symbol </th>
+          <td mat-cell *matCellDef="let element"> {{element.symbol}} </td>
+        </ng-container>
+      
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      </table>
